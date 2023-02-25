@@ -3,11 +3,11 @@ const Outputs = ({ geoData }) => {
     <div className="outputs">
       <div className="output">
         <h3>IP Address</h3>
-        <h2 className="ipAddress">{geoData ? geoData.city : "..."}</h2>
+        <h2 className="ipAddress">{geoData ? geoData.ip : "..."}</h2>
       </div>
       <div className="output">
         <h3>Location</h3>
-        <h2 className="location">{geoData ? geoData.ip : "..."}</h2>
+        <h2 className="location">{geoData ? geoData.city : "..."}</h2>
       </div>
       <div className="output">
         <h3>Timezone</h3>
