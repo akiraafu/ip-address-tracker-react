@@ -6,7 +6,7 @@ import Outputs from "./components/Outputs";
 const Home = () => {
   const [ipAdd, setIpAdd] = useState("");
   const [data, setData] = useState(null);
-  const url = `http://ipwho.is/${ipAdd}`;
+  const url = `//ipwho.is/${ipAdd}`;
 
   function getGeoIp() {
     try {
